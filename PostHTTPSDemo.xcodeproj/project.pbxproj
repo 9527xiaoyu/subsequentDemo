@@ -15,6 +15,12 @@
 		A440CC901F3BF0240055F864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A440CC8E1F3BF0240055F864 /* LaunchScreen.storyboard */; };
 		A440CC9B1F3BF0240055F864 /* PostHTTPSDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A440CC9A1F3BF0240055F864 /* PostHTTPSDemoTests.m */; };
 		A440CCA61F3BF0240055F864 /* PostHTTPSDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A440CCA51F3BF0240055F864 /* PostHTTPSDemoUITests.m */; };
+		A440CCB41F3BF0340055F864 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A440CCB31F3BF0340055F864 /* Podfile */; };
+		A440CCB91F3BF1DA0055F864 /* SubsequentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A440CCB81F3BF1DA0055F864 /* SubsequentView.m */; };
+		A440CCBD1F3C26EE0055F864 /* SubsequentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A440CCBC1F3C26EE0055F864 /* SubsequentCell.m */; };
+		A440CCC01F3C2F240055F864 /* SubsequentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A440CCBF1F3C2F240055F864 /* SubsequentModel.m */; };
+		A440CCC21F3C494B0055F864 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A440CCC11F3C494B0055F864 /* libxml2.2.tbd */; };
+		F65A543C6B2A8AC09B01A808 /* libPods-PostHTTPSDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0C4F2D079E4DD6411EC596 /* libPods-PostHTTPSDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,17 @@
 		A440CCA11F3BF0240055F864 /* PostHTTPSDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostHTTPSDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A440CCA51F3BF0240055F864 /* PostHTTPSDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostHTTPSDemoUITests.m; sourceTree = "<group>"; };
 		A440CCA71F3BF0240055F864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A440CCB31F3BF0340055F864 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A440CCB71F3BF1DA0055F864 /* SubsequentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubsequentView.h; sourceTree = "<group>"; };
+		A440CCB81F3BF1DA0055F864 /* SubsequentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubsequentView.m; sourceTree = "<group>"; };
+		A440CCBB1F3C26EE0055F864 /* SubsequentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubsequentCell.h; sourceTree = "<group>"; };
+		A440CCBC1F3C26EE0055F864 /* SubsequentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubsequentCell.m; sourceTree = "<group>"; };
+		A440CCBE1F3C2F240055F864 /* SubsequentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubsequentModel.h; sourceTree = "<group>"; };
+		A440CCBF1F3C2F240055F864 /* SubsequentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubsequentModel.m; sourceTree = "<group>"; };
+		A440CCC11F3C494B0055F864 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		A70A8C3EFE2798EE00F91BBB /* Pods-PostHTTPSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostHTTPSDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PostHTTPSDemo/Pods-PostHTTPSDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E6F8AF7425D7EDBC6A973C2B /* Pods-PostHTTPSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostHTTPSDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PostHTTPSDemo/Pods-PostHTTPSDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EE0C4F2D079E4DD6411EC596 /* libPods-PostHTTPSDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PostHTTPSDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A440CCC21F3C494B0055F864 /* libxml2.2.tbd in Frameworks */,
+				F65A543C6B2A8AC09B01A808 /* libPods-PostHTTPSDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +97,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F0EFED2D4C8949730DBDDCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A70A8C3EFE2798EE00F91BBB /* Pods-PostHTTPSDemo.debug.xcconfig */,
+				E6F8AF7425D7EDBC6A973C2B /* Pods-PostHTTPSDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		73B7AB1544F1D0BE36699053 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A440CCC11F3C494B0055F864 /* libxml2.2.tbd */,
+				EE0C4F2D079E4DD6411EC596 /* libPods-PostHTTPSDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A440CC741F3BF0240055F864 = {
 			isa = PBXGroup;
 			children = (
+				A440CCB31F3BF0340055F864 /* Podfile */,
 				A440CC7F1F3BF0240055F864 /* PostHTTPSDemo */,
 				A440CC991F3BF0240055F864 /* PostHTTPSDemoTests */,
 				A440CCA41F3BF0240055F864 /* PostHTTPSDemoUITests */,
 				A440CC7E1F3BF0240055F864 /* Products */,
+				5F0EFED2D4C8949730DBDDCC /* Pods */,
+				73B7AB1544F1D0BE36699053 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +141,8 @@
 		A440CC7F1F3BF0240055F864 /* PostHTTPSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A440CCBA1F3BF2380055F864 /* Model */,
+				A440CCB61F3BF1C90055F864 /* ModifyCollectionView */,
 				A440CC831F3BF0240055F864 /* AppDelegate.h */,
 				A440CC841F3BF0240055F864 /* AppDelegate.m */,
 				A440CC861F3BF0240055F864 /* ViewController.h */,
@@ -140,6 +182,26 @@
 			path = PostHTTPSDemoUITests;
 			sourceTree = "<group>";
 		};
+		A440CCB61F3BF1C90055F864 /* ModifyCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				A440CCB71F3BF1DA0055F864 /* SubsequentView.h */,
+				A440CCB81F3BF1DA0055F864 /* SubsequentView.m */,
+				A440CCBB1F3C26EE0055F864 /* SubsequentCell.h */,
+				A440CCBC1F3C26EE0055F864 /* SubsequentCell.m */,
+			);
+			path = ModifyCollectionView;
+			sourceTree = "<group>";
+		};
+		A440CCBA1F3BF2380055F864 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A440CCBE1F3C2F240055F864 /* SubsequentModel.h */,
+				A440CCBF1F3C2F240055F864 /* SubsequentModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A440CCAA1F3BF0240055F864 /* Build configuration list for PBXNativeTarget "PostHTTPSDemo" */;
 			buildPhases = (
+				6D60AFE432991F0C46DC51FE /* [CP] Check Pods Manifest.lock */,
 				A440CC791F3BF0240055F864 /* Sources */,
 				A440CC7A1F3BF0240055F864 /* Frameworks */,
 				A440CC7B1F3BF0240055F864 /* Resources */,
+				9183584A8148940FC6D797E6 /* [CP] Embed Pods Frameworks */,
+				65F39BD6FC3254C610BA64FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +313,7 @@
 			files = (
 				A440CC901F3BF0240055F864 /* LaunchScreen.storyboard in Resources */,
 				A440CC8D1F3BF0240055F864 /* Assets.xcassets in Resources */,
+				A440CCB41F3BF0340055F864 /* Podfile in Resources */,
 				A440CC8B1F3BF0240055F864 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,13 +334,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		65F39BD6FC3254C610BA64FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PostHTTPSDemo/Pods-PostHTTPSDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D60AFE432991F0C46DC51FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9183584A8148940FC6D797E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PostHTTPSDemo/Pods-PostHTTPSDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A440CC791F3BF0240055F864 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A440CCB91F3BF1DA0055F864 /* SubsequentView.m in Sources */,
 				A440CC881F3BF0240055F864 /* ViewController.m in Sources */,
+				A440CCBD1F3C26EE0055F864 /* SubsequentCell.m in Sources */,
 				A440CC851F3BF0240055F864 /* AppDelegate.m in Sources */,
+				A440CCC01F3C2F240055F864 /* SubsequentModel.m in Sources */,
 				A440CC821F3BF0240055F864 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +541,7 @@
 		};
 		A440CCAB1F3BF0240055F864 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A70A8C3EFE2798EE00F91BBB /* Pods-PostHTTPSDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PostHTTPSDemo/Info.plist;
@@ -435,6 +553,7 @@
 		};
 		A440CCAC1F3BF0240055F864 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6F8AF7425D7EDBC6A973C2B /* Pods-PostHTTPSDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PostHTTPSDemo/Info.plist;
@@ -509,6 +628,7 @@
 				A440CCAC1F3BF0240055F864 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A440CCAD1F3BF0240055F864 /* Build configuration list for PBXNativeTarget "PostHTTPSDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +637,7 @@
 				A440CCAF1F3BF0240055F864 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A440CCB01F3BF0240055F864 /* Build configuration list for PBXNativeTarget "PostHTTPSDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +646,7 @@
 				A440CCB21F3BF0240055F864 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
